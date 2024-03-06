@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html{
+	background: linear-gradient(45deg, black, rgb(255, 128, 64), black, orange, black);
+	color: white;
+	background-size: 100% 5000px;
+}
+#box{
+	background-image: url('/form.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	font-family: sans-serif;
+	font-size: large;
+	margin: 20vh;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 80px 200px;
+	border-radius: 80px;
+}
+button{
+	font-size: 20px;
+	color: orange;
+	background: black;
+}
+button:hover{
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	background: orange;
+}
+h2{
+	text-decoration: underline;
+}

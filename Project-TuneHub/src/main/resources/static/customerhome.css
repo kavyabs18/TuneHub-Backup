@@ -1,0 +1,53 @@
+@charset "UTF-8";
+html{
+	background: linear-gradient(45deg,rgb(255, 128, 64), black, rgb(255, 128, 64), black);
+	background-size: 100% 5000px;
+	background-repeat: no-repeat;
+	display: block;
+	color: white;
+	text-align: center;
+	height: 100vh;
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+	padding: 20px 50px;
+	color: white;
+	text-decoration: underline;
+	background: linear-gradient(45deg, black, orange, black, rgb(255, 128, 64), black);
+	border: solid white;
+}
+body{
+	background-image: url('/form.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 55px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 40px 200px;
+	border-radius: 80px;
+	border: double 10px;
+}
+table{
+	border: solid white;
+	background: linear-gradient(45deg, black, rgb(255, 128, 64), black, orange, black);
+	font-family: sans-serif;
+	font-size: large;
+	text-align: center;
+}
+input{
+	font-size: 20px;
+	color: orange;
+	background: black;
+}
+input:hover{
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	background: orange;
+}
+.non-premium{
+	margin: 80px;
+}

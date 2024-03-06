@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body{
+	background-image: url('/customer.jpg');
+	background-size: cover;
+}
+#box{
+	background-image: url('/form.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	font-family: sans-serif;
+	font-size: x-large;
+	text-align: center;
+	margin: 80px;
+	margin-left: 450px;
+	margin-right: 450px;
+	padding: 80px;
+	border-radius: 50px;
+	color: white;
+}
+input{
+	font-size: 20px;
+	color: white;
+	background: black;
+}
+input:hover{
+	color: black;
+	background: white;
+}
+#log{
+	font-size: 20px;
+	color: orange;
+	background: black;
+}
+#log:hover{
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	background: orange;
+}
+h2{
+	text-decoration: underline;
+}

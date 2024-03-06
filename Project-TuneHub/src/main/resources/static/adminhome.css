@@ -1,0 +1,48 @@
+@charset "UTF-8";
+html{
+	background-image: url('/customer.jpg');
+	background-size: cover;
+}
+body{
+	background-image: url('/form.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	font-family: sans-serif;
+	font-size: x-large;
+	text-align: center;
+	margin: 80px;
+	margin-left: 450px;
+	margin-right: 450px;
+	padding: 80px;
+	border-radius: 50px;
+	color: white;
+}
+
+#box{
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	font-family: sans-serif;
+	font-size: 30px;
+	text-decoration: underline white;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+input{
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	background: linear-gradient(45deg, black, rgb(255, 128, 64));
+}
+input:hover{
+	color: orange;
+	background: black;
+	font-weight: bolder;
+}
+p{
+}
+form{
+	padding: 10px;
+}
